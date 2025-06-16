@@ -1,0 +1,22 @@
+{
+  "name": "contactly",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/amangupta-1302/ContactLy#readme",
+  "bugs": {
+    "url": "https://github.com/amangupta-1302/ContactLy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amangupta-1302/ContactLy.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build" : "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend", 
+    "start"  :"npm run start --prefix Backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

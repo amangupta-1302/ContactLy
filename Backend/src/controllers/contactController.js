@@ -31,7 +31,6 @@ export const getContactById = async (req, res) => {
 export const updateContact = async (req, res) => {
     try {
         const { id } = req.params
-        console.log("Params::", id)
         const { name, email, phone } = req.body
         const contact = await Contact.findById(id)
         if (!contact) {
